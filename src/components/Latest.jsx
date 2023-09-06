@@ -48,12 +48,12 @@ export const Latest = () => {
     return (
         <div className='px-20 mt-20 w-full'>
 
-            <p className='text-4xl md:text-4xl lg:text-6xl font-bold text-[#0E2368]'>
+            <p className='px-1 md:px-5 md:text-start text-center text-3xl md:text-3xl lg:text-4xl font-semibold text-[#0E2368]'>
                 Latest Articles
             </p>
 
 
-            <div className='mt-14'>
+            <div className='mt-5 p-1 md:p-5'>
 
                 <div className={`${page === 1 ? "md:flex" : "hidden"}`}>
                     <Articles img={tomato} heading={heading1} article={article1} />

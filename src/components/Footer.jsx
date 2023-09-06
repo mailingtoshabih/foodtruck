@@ -11,14 +11,14 @@ export const Footer = () => {
             </div>
 
 
-            <div className='mt-5 w-1/4 p-5'>
+            <div className='mt-5 md:w-1/4 p-5'>
                 
-                <p className='text-xl font-semibold text-[#0E2368]'>
+                <p className='text-lg font-semibold text-[#0E2368]'>
                     Contact Us
                 </p>
 
 
-                <p className='mt-5 w-full leading-7'>
+                <p className='mt-5  w-full leading-7 text-md'>
                     Lorem Ipsum Pvt Ltd.5/1, Magalton Road,
                     <br />
                     Phartosh Gate near YTM
@@ -36,11 +36,11 @@ export const Footer = () => {
 
             <div className='mt-5 w-1/4 p-5'>
 
-                <p className='text-xl font-semibold text-[#0E2368]'>
+                <p className='text-lg font-semibold text-[#0E2368]'>
                     More
                 </p>
 
-                <ul className='mt-5 space-y-2'>
+                <ul className='mt-5 space-y-2 text-md'>
                     <li>About Us</li>
                     <li>Products</li>
                     <li>Career</li>
@@ -52,7 +52,7 @@ export const Footer = () => {
 
             <div className='mt-5 text-center w-full md:w-1/4 p-5'>
 
-                <p className='text-xl font-semibold text-[#0E2368]'>
+                <p className='text-lg font-semibold text-[#0E2368]'>
                     Social Links
                 </p>
 

@@ -19,7 +19,7 @@ export const Hero = () => {
                         src={truck} 
                         alt="logo" />
 
-                    <p className='mt-20 lg:mt-36 w-fit text-4xl lg:text-4xl xl:text-8xl font-bold text-[#0E2368]'>
+                    <p className='mt-20 lg:mt-36 w-fit text-3xl lg:text-4xl xl:text-5xl font-bold text-[#0E2368]'>
                         Discover the <br />
                         <span className='text-[#E23744]'>
                             Best
@@ -27,11 +27,11 @@ export const Hero = () => {
                         &nbsp;Food <br /> and Drinks
                     </p>
 
-                    <p className='text-[#444957] text-2xl'>
-                        Naturally made Healthcare Products for the <br /> better care & support of your body.
+                    <p className='text-[#444957] text-sm md:text-md'>
+                        Naturally made Healthcare Products for the better care & support of your body.
                     </p>
 
-                    <button className='px-8 py-4 text-2xl text-white font-semibold bg-[#E23744] rounded-full'>
+                    <button className='px-4 py-2 text-sm text-white font-semibold bg-[#E23744] rounded-full'>
                         Explore Now!
                     </button>
 
@@ -48,10 +48,10 @@ export const Hero = () => {
                 <div className='w-full md:w-fit'>
 
                     <div className='relative'>
-                        <img src={pizza} alt=""  className='w-[900px]'/>
-                        <img className='absolute top-0 w-[1000px]' src={red} alt="" />
+                        <img src={pizza} alt=""  className='w-full md:w-[600px]'/>
+                        <img className='absolute top-0 w-full md:w-[600px]' src={red} alt="" />
 
-                        <button className='absolute text-white text-lg font-semibold px-4 py-2 top-10 right-10 border-4 border-white rounded-full'>
+                        <button className='absolute text-white text-sm px-3 py-2 top-8 right-8 border-2 border-white rounded-full'>
                             Get In Touch
                         </button>
                     </div>
@@ -66,7 +66,7 @@ export const Hero = () => {
 
                 <div className='block md:hidden text-center space-y-10'>
 
-                    <p className='mt-20 text-6xl lg:text-7xl font-bold text-[#0E2368]'>
+                    <p className='mt-20 text-4xl lg:text-5xl font-bold text-[#0E2368]'>
                         Discover the <br />
                         <span className='text-[#E23744]'>
                             Best
@@ -74,11 +74,11 @@ export const Hero = () => {
                         &nbsp;Food <br /> and Drinks
                     </p>
 
-                    <p className='text-[#444957] text-xl'>
+                    <p className='text-[#444957]'>
                         Naturally made Healthcare Products for the <br /> better care & support of your body.
                     </p>
 
-                    <button className='px-8 py-6 text-xl text-white font-semibold bg-[#E23744] rounded-full'>
+                    <button className='px-5 py-3 text-white font-semibold bg-[#E23744] rounded-full'>
                         Explore Now!
                     </button>
 
