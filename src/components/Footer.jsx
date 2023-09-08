@@ -10,13 +10,11 @@ export const Footer = () => {
                 <img className='mx-auto my-auto mt-24' src={truck} alt="logo" />
             </div>
 
-
             <div className='mt-5 md:w-1/4 p-5'>
                 
                 <p className='text-lg font-semibold text-[#0E2368]'>
                     Contact Us
                 </p>
-
 
                 <p className='mt-5  w-full leading-7 text-md'>
                     Lorem Ipsum Pvt Ltd.5/1, Magalton Road,
@@ -31,8 +29,6 @@ export const Footer = () => {
                 </p>
 
             </div>
-
-
 
             <div className='mt-5 w-1/4 p-5'>
 

@@ -5,8 +5,7 @@ export const Articles = ({ img, heading, article }) => {
 
     return (
 
-        <div className='w-full my-10 lg:w-1/3 border-2 rounded-3xl p-7 md:p-9 space-y-5 m-2 text-center md:text-start font-poppins'>
-
+        <div className='w-full my-10 lg:w-1/3 border-2 rounded-3xl p-4 lg:p-9 space-y-5 md:m-2 text-center md:text-start font-poppins'>
 
             <img className='w-full' src={img} alt="" />
 
@@ -14,14 +13,13 @@ export const Articles = ({ img, heading, article }) => {
                 {heading}
             </p>
 
-            <p className='text-md'>
+            <p className='text-sm md:text-md'>
                 {article}
             </p>
 
             <button className='border-4 text-md rounded-full px-4 py-2 font-semibold'>
                 Read More
             </button>
-
 
         </div>
     )

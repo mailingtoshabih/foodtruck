@@ -19,7 +19,7 @@ export const Hero = () => {
                         src={truck} 
                         alt="logo" />
 
-                    <p className='mt-20 lg:mt-36 w-fit text-3xl lg:text-4xl xl:text-5xl font-bold text-[#0E2368]'>
+                    <p className='mt-20 lg:mt-36 w-fit text-3xl lg:text-4xl xl:text-5xl font-bold text-[#0E2368] '>
                         Discover the <br />
                         <span className='text-[#E23744]'>
                             Best
@@ -38,11 +38,7 @@ export const Hero = () => {
                 </div>
 
 
-
-
-
                 {/* -----------------------------Hero Image------------------ */}
-
 
 
                 <div className='w-full md:w-fit'>
@@ -57,8 +53,6 @@ export const Hero = () => {
                     </div>
 
                 </div>
-
-
 
 
 
@@ -84,11 +78,7 @@ export const Hero = () => {
 
                 </div>
 
-
-
-
             </div>
-
 
         </div>
     )

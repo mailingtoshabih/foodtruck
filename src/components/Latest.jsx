@@ -46,7 +46,7 @@ export const Latest = () => {
 
 
     return (
-        <div className='px-5 md:px-20 mt-20 w-full'>
+        <div className='px-5 lg:px-20 mt-20 w-full'>
 
             <p className='px-1 md:px-5 md:text-start text-center text-3xl md:text-3xl lg:text-4xl font-semibold text-[#0E2368]'>
                 Latest Articles
@@ -68,10 +68,6 @@ export const Latest = () => {
                 </div>
 
             </div>
-
-
-
-
 
 
             <div className='mt-10 mx-auto w-fit h-10 flex space-x-3 font-poppins'>
